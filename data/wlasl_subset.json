@@ -1,0 +1,403 @@
+[
+  {
+    "word": "hello",
+    "hand": "right",
+    "description": "Open hand near forehead, move outward like a salute",
+    "standard": "ASL",
+    "samples": [
+      {
+        "emg_signal": "[0.073, 0.298, 0.251, 0.713, 0.659, 0.853, 0.128, 0.43]"
+      }
+    ]
+  },
+  {
+    "word": "thank you",
+    "hand": "right",
+    "description": "Flat hand touches chin, then moves forward and down",
+    "standard": "ASL",
+    "samples": [
+      {
+        "emg_signal": "[0.134, 0.259, 0.592, 0.555, 0.694, 0.681, 0.428, 0.454]"
+      }
+    ]
+  },
+  {
+    "word": "please",
+    "hand": "right",
+    "description": "Flat hand circles on chest clockwise",
+    "standard": "ASL",
+    "samples": [
+      {
+        "emg_signal": "[0.778, 0.056, 0.775, 0.678, 0.356, 0.19, 0.911, 0.353]"
+      },
+      {
+        "emg_signal": "[0.133, 0.137, 0.813, 0.593, 0.776, 0.707, 0.533, 0.926]"
+      },
+      {
+        "emg_signal": "[0.391, 0.547, 0.796, 0.607, 0.826, 0.57, 0.684, 0.091]"
+      }
+    ]
+  },
+  {
+    "word": "sorry",
+    "hand": "right",
+    "description": "Fist circles on chest (like 'please' but with fist)",
+    "standard": "ASL",
+    "samples": [
+      {
+        "emg_signal": "[0.746, 0.937, 0.82, 0.83, 0.392, 0.458, 0.801, 0.196]"
+      },
+      {
+        "emg_signal": "[0.37, 0.653, 0.682, 0.665, 0.114, 0.621, 0.531, 0.27]"
+      }
+    ]
+  },
+  {
+    "word": "yes",
+    "hand": "right",
+    "description": "Fist nods forward like a head nodding",
+    "standard": "ASL",
+    "samples": [
+      {
+        "emg_signal": "[0.392, 0.941, 0.626, 0.551, 0.666, 0.809, 0.748, 0.256]"
+      },
+      {
+        "emg_signal": "[0.079, 0.334, 0.291, 0.24, 0.899, 0.839, 0.333, 0.64]"
+      },
+      {
+        "emg_signal": "[0.406, 0.873, 0.463, 0.288, 0.272, 0.555, 0.286, 0.576]"
+      },
+      {
+        "emg_signal": "[0.858, 0.409, 0.247, 0.948, 0.509, 0.132, 0.092, 0.149]"
+      }
+    ]
+  },
+  {
+    "word": "no",
+    "hand": "right",
+    "description": "Index and middle finger snap shut against thumb",
+    "standard": "ASL",
+    "samples": [
+      {
+        "emg_signal": "[0.763, 0.43, 0.107, 0.393, 0.947, 0.526, 0.924, 0.825]"
+      },
+      {
+        "emg_signal": "[0.06, 0.699, 0.664, 0.533, 0.29, 0.627, 0.15, 0.441]"
+      }
+    ]
+  },
+  {
+    "word": "help",
+    "hand": "both",
+    "description": "Fist on open palm, both lift together",
+    "standard": "ASL",
+    "samples": [
+      {
+        "emg_signal": "[0.053, 0.7, 0.698, 0.925, 0.736, 0.507, 0.146, 0.613]"
+      },
+      {
+        "emg_signal": "[0.808, 0.507, 0.229, 0.387, 0.195, 0.908, 0.88, 0.877]"
+      },
+      {
+        "emg_signal": "[0.589, 0.49, 0.151, 0.377, 0.937, 0.776, 0.266, 0.267]"
+      },
+      {
+        "emg_signal": "[0.561, 0.121, 0.709, 0.784, 0.93, 0.529, 0.163, 0.644]"
+      }
+    ]
+  },
+  {
+    "word": "want",
+    "hand": "both",
+    "description": "Both hands open, palms up, pull toward body while curling fingers",
+    "standard": "ASL",
+    "samples": [
+      {
+        "emg_signal": "[0.289, 0.835, 0.431, 0.241, 0.535, 0.707, 0.231, 0.331]"
+      },
+      {
+        "emg_signal": "[0.946, 0.635, 0.444, 0.516, 0.159, 0.252, 0.354, 0.579]"
+      }
+    ]
+  },
+  {
+    "word": "name",
+    "hand": "both",
+    "description": "Two-finger H-shape hands tap crosswise",
+    "standard": "ASL",
+    "samples": [
+      {
+        "emg_signal": "[0.58, 0.056, 0.687, 0.103, 0.111, 0.078, 0.347, 0.513]"
+      },
+      {
+        "emg_signal": "[0.301, 0.487, 0.535, 0.701, 0.844, 0.569, 0.269, 0.476]"
+      }
+    ]
+  },
+  {
+    "word": "water",
+    "hand": "right",
+    "description": "W-handshape taps chin twice",
+    "standard": "ASL",
+    "samples": [
+      {
+        "emg_signal": "[0.221, 0.137, 0.438, 0.431, 0.47, 0.706, 0.656, 0.936]"
+      },
+      {
+        "emg_signal": "[0.139, 0.412, 0.355, 0.826, 0.274, 0.221, 0.454, 0.43]"
+      },
+      {
+        "emg_signal": "[0.301, 0.275, 0.881, 0.449, 0.825, 0.545, 0.096, 0.949]"
+      },
+      {
+        "emg_signal": "[0.802, 0.922, 0.884, 0.814, 0.2, 0.487, 0.242, 0.411]"
+      }
+    ]
+  },
+  {
+    "word": "food",
+    "hand": "right",
+    "description": "Flattened O-hand taps lips twice",
+    "standard": "ASL",
+    "samples": [
+      {
+        "emg_signal": "[0.198, 0.052, 0.401, 0.884, 0.757, 0.307, 0.677, 0.707]"
+      }
+    ]
+  },
+  {
+    "word": "love",
+    "hand": "both",
+    "description": "Cross fists or open arms over chest",
+    "standard": "ASL",
+    "samples": [
+      {
+        "emg_signal": "[0.189, 0.317, 0.922, 0.571, 0.538, 0.723, 0.101, 0.576]"
+      },
+      {
+        "emg_signal": "[0.503, 0.817, 0.192, 0.915, 0.122, 0.217, 0.586, 0.658]"
+      },
+      {
+        "emg_signal": "[0.262, 0.158, 0.851, 0.272, 0.585, 0.607, 0.427, 0.575]"
+      },
+      {
+        "emg_signal": "[0.521, 0.891, 0.234, 0.695, 0.265, 0.406, 0.655, 0.32]"
+      }
+    ]
+  },
+  {
+    "word": "friend",
+    "hand": "both",
+    "description": "Index fingers hook together and alternate",
+    "standard": "ASL",
+    "samples": [
+      {
+        "emg_signal": "[0.886, 0.892, 0.058, 0.609, 0.557, 0.14, 0.534, 0.505]"
+      },
+      {
+        "emg_signal": "[0.169, 0.364, 0.112, 0.27, 0.306, 0.444, 0.539, 0.322]"
+      },
+      {
+        "emg_signal": "[0.935, 0.776, 0.526, 0.651, 0.549, 0.889, 0.143, 0.84]"
+      }
+    ]
+  },
+  {
+    "word": "family",
+    "hand": "both",
+    "description": "Both F-hands circle forward from center",
+    "standard": "ASL",
+    "samples": [
+      {
+        "emg_signal": "[0.154, 0.146, 0.548, 0.295, 0.594, 0.696, 0.233, 0.621]"
+      },
+      {
+        "emg_signal": "[0.288, 0.49, 0.865, 0.811, 0.133, 0.431, 0.299, 0.053]"
+      },
+      {
+        "emg_signal": "[0.744, 0.623, 0.286, 0.717, 0.547, 0.435, 0.059, 0.118]"
+      }
+    ]
+  },
+  {
+    "word": "school",
+    "hand": "both",
+    "description": "Flat hands clap twice",
+    "standard": "ASL",
+    "samples": [
+      {
+        "emg_signal": "[0.541, 0.801, 0.574, 0.183, 0.165, 0.327, 0.859, 0.767]"
+      },
+      {
+        "emg_signal": "[0.825, 0.859, 0.239, 0.275, 0.143, 0.752, 0.846, 0.416]"
+      }
+    ]
+  },
+  {
+    "word": "work",
+    "hand": "both",
+    "description": "Fists tap together, dominant on top, twice",
+    "standard": "ASL",
+    "samples": [
+      {
+        "emg_signal": "[0.883, 0.263, 0.196, 0.77, 0.209, 0.421, 0.211, 0.882]"
+      },
+      {
+        "emg_signal": "[0.754, 0.421, 0.653, 0.712, 0.273, 0.193, 0.681, 0.394]"
+      }
+    ]
+  },
+  {
+    "word": "good",
+    "hand": "right",
+    "description": "Flat hand touches chin then moves down to open palm",
+    "standard": "ASL",
+    "samples": [
+      {
+        "emg_signal": "[0.823, 0.25, 0.785, 0.464, 0.325, 0.766, 0.255, 0.071]"
+      }
+    ]
+  },
+  {
+    "word": "bad",
+    "hand": "right",
+    "description": "Flat hand touches chin then flips palm down",
+    "standard": "ASL",
+    "samples": [
+      {
+        "emg_signal": "[0.409, 0.301, 0.112, 0.746, 0.366, 0.508, 0.662, 0.809]"
+      },
+      {
+        "emg_signal": "[0.348, 0.075, 0.839, 0.285, 0.573, 0.935, 0.084, 0.587]"
+      }
+    ]
+  },
+  {
+    "word": "learn",
+    "hand": "both",
+    "description": "Pick up from open palm and bring to forehead",
+    "standard": "ASL",
+    "samples": [
+      {
+        "emg_signal": "[0.706, 0.332, 0.596, 0.51, 0.397, 0.569, 0.279, 0.688]"
+      },
+      {
+        "emg_signal": "[0.052, 0.883, 0.535, 0.697, 0.718, 0.654, 0.378, 0.113]"
+      },
+      {
+        "emg_signal": "[0.648, 0.347, 0.333, 0.813, 0.698, 0.32, 0.328, 0.418]"
+      }
+    ]
+  },
+  {
+    "word": "understand",
+    "hand": "right",
+    "description": "Index finger flicks up near forehead",
+    "standard": "ASL",
+    "samples": [
+      {
+        "emg_signal": "[0.677, 0.549, 0.223, 0.648, 0.391, 0.723, 0.207, 0.562]"
+      },
+      {
+        "emg_signal": "[0.415, 0.8, 0.323, 0.239, 0.757, 0.596, 0.34, 0.448]"
+      },
+      {
+        "emg_signal": "[0.658, 0.51, 0.764, 0.914, 0.712, 0.643, 0.305, 0.647]"
+      },
+      {
+        "emg_signal": "[0.607, 0.134, 0.907, 0.261, 0.329, 0.776, 0.183, 0.092]"
+      }
+    ]
+  },
+  {
+    "word": "more",
+    "hand": "both",
+    "description": "Both flattened O-hands tap together at fingertips",
+    "standard": "ASL",
+    "samples": [
+      {
+        "emg_signal": "[0.6, 0.742, 0.46, 0.848, 0.568, 0.697, 0.396, 0.41]"
+      },
+      {
+        "emg_signal": "[0.183, 0.669, 0.853, 0.824, 0.847, 0.751, 0.247, 0.774]"
+      },
+      {
+        "emg_signal": "[0.676, 0.468, 0.552, 0.876, 0.159, 0.17, 0.468, 0.528]"
+      },
+      {
+        "emg_signal": "[0.553, 0.336, 0.73, 0.448, 0.784, 0.853, 0.434, 0.866]"
+      }
+    ]
+  },
+  {
+    "word": "stop",
+    "hand": "both",
+    "description": "Flat hand chops down onto open palm",
+    "standard": "ASL",
+    "samples": [
+      {
+        "emg_signal": "[0.857, 0.719, 0.477, 0.283, 0.273, 0.624, 0.739, 0.519]"
+      },
+      {
+        "emg_signal": "[0.614, 0.297, 0.12, 0.307, 0.295, 0.338, 0.536, 0.175]"
+      },
+      {
+        "emg_signal": "[0.258, 0.675, 0.686, 0.108, 0.417, 0.538, 0.424, 0.236]"
+      },
+      {
+        "emg_signal": "[0.428, 0.864, 0.576, 0.676, 0.821, 0.739, 0.392, 0.055]"
+      }
+    ]
+  },
+  {
+    "word": "go",
+    "hand": "both",
+    "description": "Both index fingers point forward and arc away",
+    "standard": "ASL",
+    "samples": [
+      {
+        "emg_signal": "[0.319, 0.401, 0.852, 0.802, 0.534, 0.711, 0.77, 0.858]"
+      },
+      {
+        "emg_signal": "[0.489, 0.296, 0.487, 0.4, 0.652, 0.768, 0.702, 0.806]"
+      },
+      {
+        "emg_signal": "[0.878, 0.933, 0.531, 0.866, 0.583, 0.647, 0.126, 0.436]"
+      }
+    ]
+  },
+  {
+    "word": "come",
+    "hand": "right",
+    "description": "Index finger beckons toward body",
+    "standard": "ASL",
+    "samples": [
+      {
+        "emg_signal": "[0.214, 0.284, 0.345, 0.459, 0.354, 0.842, 0.3, 0.906]"
+      },
+      {
+        "emg_signal": "[0.429, 0.801, 0.473, 0.724, 0.097, 0.907, 0.252, 0.112]"
+      },
+      {
+        "emg_signal": "[0.912, 0.086, 0.078, 0.273, 0.805, 0.609, 0.265, 0.476]"
+      },
+      {
+        "emg_signal": "[0.153, 0.903, 0.469, 0.281, 0.382, 0.595, 0.917, 0.697]"
+      }
+    ]
+  },
+  {
+    "word": "think",
+    "hand": "right",
+    "description": "Index finger touches forehead",
+    "standard": "ASL",
+    "samples": [
+      {
+        "emg_signal": "[0.918, 0.147, 0.073, 0.331, 0.66, 0.912, 0.407, 0.694]"
+      },
+      {
+        "emg_signal": "[0.118, 0.672, 0.615, 0.142, 0.745, 0.815, 0.59, 0.159]"
+      }
+    ]
+  }
+]
