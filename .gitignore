@@ -1,5 +1,11 @@
-.venv
-00.md
+.old/
+.venv/
+__pycache__/
+*.pyc
+.env
+*.egg-info/
+dist/
+build/
+*.db
 *.html
 *.pdf
-.old
