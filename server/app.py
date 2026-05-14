@@ -4,6 +4,7 @@ from sqlalchemy import func
 from server.database import engine, get_db, Base
 from server.models import Sign, Sample
 from server.schemas import SignCreate, SignResponse, SampleCreate, SampleResponse, StatsResponse
+import ollama as ollama_client
 
 Base.metadata.create_all(bind=engine)
 
@@ -145,7 +146,7 @@ def create_sample(data: SampleCreate, db: Session = Depends(get_db)) -> SampleRe
     return sample
 
 
-# --- Stats Aggregation --- #
+# --- Stats Aggregation and LLM Integrartion --- #
 
 @app.get("/stats", response_model=StatsResponse)
 def get_stats(db: Session = Depends(get_db)) -> StatsResponse:
@@ -175,3 +176,24 @@ def get_stats(db: Session = Depends(get_db)) -> StatsResponse:
         signs_per_hand=signs_per_hand,
         samples_per_sign=samples_per_sign,
     )
+    
+@app.get("/signs/{sign_id}/describe")
+def describe_sign(sign_id: int, db: Session = Depends(get_db)):
+    sign = db.query(Sign).filter(Sign.id == sign_id).first()
+    if not sign:
+        raise HTTPException(status_code=404, detail="Sign not found")
+
+    sample_count = len(sign.samples)
+    prompt = (
+        f"You are an ASL instructor. Describe how to perform the sign for '{sign.word}' "
+        f"using the {sign.hand} hand(s). "
+        f"Additional context: {sign.description or 'none'}. "
+        f"We have {sample_count} recorded samples of this sign. "
+        f"Keep it concise (2-3 sentences)."
+    )
+
+    response = ollama_client.chat(
+        model="llama3.2:3b",
+        messages=[{"role": "user", "content": prompt}],
+    )
+    return {"sign": sign.word, "description": response["message"]["content"]}
